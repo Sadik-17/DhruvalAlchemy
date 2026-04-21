@@ -22,8 +22,9 @@ export const metadata: Metadata = {
   authors: [{ name: "Dhruval Solanki" }],
   openGraph: {
     title: "Dhruval Solanki | Movement Artist",
+    images: "/IMG_0135.PNG",
     description: "Explore the journey, performances, and professional engagements of Dhruval Solanki in specialized Kalaripayattu and Contemporary Dance.",
-    url: "https://dhruvalsolanki.com",
+    url: "https://dhruval-alchemy.netlify.app",
     siteName: "Dhruval Solanki Portfolio",
     locale: "en_US",
     type: "website",

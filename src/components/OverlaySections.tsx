@@ -28,6 +28,7 @@ const YoutubeShortsPlayer = ({ videoId, className }: { videoId: string, classNam
       <img
         src={imgSrc}
         alt="Play Video"
+        loading="lazy"
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 opacity-90 group-hover:opacity-100"
         onError={() => {
           if (imgSrc.includes('maxresdefault')) {
@@ -106,7 +107,7 @@ export default function OverlaySections() {
 
         {/* Global Smoky Background for Seamless Experience */}
         <div className="absolute inset-0 pointer-events-none opacity-40 z-0">
-          <img src="IMG_9892.png" className="w-full h-full object-cover mix-blend-lighten" alt="Smoke" />
+          <img src="IMG_9892.png" loading="lazy" className="w-full h-full object-cover mix-blend-lighten" alt="Smoke" />
           <div className="absolute inset-0 bg-black/60"></div>
         </div>
 
@@ -114,7 +115,7 @@ export default function OverlaySections() {
         <FadeSection index={0} total={sectionCount} progress={scrollYProgress}>
           <section className="relative w-full h-full flex items-start pt-20">
             <div className="absolute inset-0 -z-10 overflow-hidden">
-              <img src="IMG_9892.png" className="w-full h-full object-cover" />
+              <img src="IMG_9892.png" loading="lazy" className="w-full h-full object-cover" />
             </div>
 
             <div className="max-w-3xl relative z-10 ml-6 md:ml-16 mt-6 md:mt-10">
@@ -152,6 +153,7 @@ export default function OverlaySections() {
                 <img
                   src="IMG_0130.PNG"
                   alt="Major Production"
+                  loading="lazy"
                   className="w-full h-full bg-black object-cover transition-all z-1000 duration-700 hover:scale-110"
                 />
               </div>
@@ -163,7 +165,7 @@ export default function OverlaySections() {
         <FadeSection index={2} total={sectionCount} progress={scrollYProgress}>
           <section className="relative w-full h-full flex items-start pt-20">
             <div className="absolute inset-0 -z-10 overflow-hidden">
-              <img src="IMG_0128.png" className="w-full h-full object-cover" />
+              <img src="IMG_0128.png" loading="lazy" className="w-full h-full object-cover" />
             </div>
 
             <div className="max-w-4xl relative z-10 ml-6 md:ml-16 mt-6 md:mt-10">

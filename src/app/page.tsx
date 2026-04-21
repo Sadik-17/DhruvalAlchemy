@@ -26,6 +26,7 @@ export default function Home() {
           <img
             src="IMG_9989.PNG"
             alt="Dhruval Solanki"
+            loading="lazy"
             className="w-full h-full object-cover transition-all duration-700 hover:scale-110"
           />
         </div>
